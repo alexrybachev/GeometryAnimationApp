@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		28D058C4267DD73E005AA7EF /* GeometryAnimationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058C3267DD73E005AA7EF /* GeometryAnimationAppApp.swift */; };
-		28D058C6267DD73E005AA7EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058C5267DD73E005AA7EF /* ContentView.swift */; };
+		28D058C6267DD73E005AA7EF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058C5267DD73E005AA7EF /* MainView.swift */; };
 		28D058C8267DD73E005AA7EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D058C7267DD73E005AA7EF /* Assets.xcassets */; };
 		28D058CB267DD73E005AA7EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D058CA267DD73E005AA7EF /* Preview Assets.xcassets */; };
+		28D058D3267E00B3005AA7EF /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D2267E00B3005AA7EF /* AwardsView.swift */; };
+		28D058D5267E00C1005AA7EF /* GradientRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D4267E00C1005AA7EF /* GradientRectangle.swift */; };
+		28D058D7267E00CA005AA7EF /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D6267E00CA005AA7EF /* PathView.swift */; };
+		28D058D9267E00DB005AA7EF /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D8267E00DB005AA7EF /* CurvesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28D058C0267DD73E005AA7EF /* GeometryAnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometryAnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D058C3267DD73E005AA7EF /* GeometryAnimationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryAnimationAppApp.swift; sourceTree = "<group>"; };
-		28D058C5267DD73E005AA7EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28D058C5267DD73E005AA7EF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		28D058C7267DD73E005AA7EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D058CA267DD73E005AA7EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		28D058CC267DD73E005AA7EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D058D2267E00B3005AA7EF /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
+		28D058D4267E00C1005AA7EF /* GradientRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangle.swift; sourceTree = "<group>"; };
+		28D058D6267E00CA005AA7EF /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		28D058D8267E00DB005AA7EF /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				28D058C3267DD73E005AA7EF /* GeometryAnimationAppApp.swift */,
-				28D058C5267DD73E005AA7EF /* ContentView.swift */,
+				28D058C5267DD73E005AA7EF /* MainView.swift */,
+				28D058D2267E00B3005AA7EF /* AwardsView.swift */,
+				28D058D4267E00C1005AA7EF /* GradientRectangle.swift */,
+				28D058D6267E00CA005AA7EF /* PathView.swift */,
+				28D058D8267E00DB005AA7EF /* CurvesView.swift */,
 				28D058C7267DD73E005AA7EF /* Assets.xcassets */,
 				28D058CC267DD73E005AA7EF /* Info.plist */,
 				28D058C9267DD73E005AA7EF /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D058C6267DD73E005AA7EF /* ContentView.swift in Sources */,
+				28D058D9267E00DB005AA7EF /* CurvesView.swift in Sources */,
+				28D058D7267E00CA005AA7EF /* PathView.swift in Sources */,
+				28D058C6267DD73E005AA7EF /* MainView.swift in Sources */,
+				28D058D5267E00C1005AA7EF /* GradientRectangle.swift in Sources */,
 				28D058C4267DD73E005AA7EF /* GeometryAnimationAppApp.swift in Sources */,
+				28D058D3267E00B3005AA7EF /* AwardsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
