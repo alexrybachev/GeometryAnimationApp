@@ -24,9 +24,9 @@ struct MainView: View {
             }
             Spacer()
             if showAward {
-                GradientRectangle(width: 250, height: 250)
+                MoveCircle(width: 250, height: 250)
 //                    .offset(x: showAward ? 0 : -UIScreen.main.bounds.width)
-//                    .animation(Animation.spring().repeatCount(2, autoreverses: false))
+//                    .animation(.easeInOut.delay(0.3))
                     .animation(.default)
                     .transition(.transition)
             }

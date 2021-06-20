@@ -15,6 +15,10 @@
 		28D058D5267E00C1005AA7EF /* GradientRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D4267E00C1005AA7EF /* GradientRectangle.swift */; };
 		28D058D7267E00CA005AA7EF /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D6267E00CA005AA7EF /* PathView.swift */; };
 		28D058D9267E00DB005AA7EF /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058D8267E00DB005AA7EF /* CurvesView.swift */; };
+		28D058DB267F1A0D005AA7EF /* MoveCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058DA267F1A0D005AA7EF /* MoveCircle.swift */; };
+		28D058DD267F26CA005AA7EF /* TestShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058DC267F26CA005AA7EF /* TestShapes.swift */; };
+		28D058DF267F4B5E005AA7EF /* TestGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058DE267F4B5E005AA7EF /* TestGeometry.swift */; };
+		28D058E1267F4DB7005AA7EF /* TestGeo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D058E0267F4DB7005AA7EF /* TestGeo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		28D058D4267E00C1005AA7EF /* GradientRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangle.swift; sourceTree = "<group>"; };
 		28D058D6267E00CA005AA7EF /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		28D058D8267E00DB005AA7EF /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		28D058DA267F1A0D005AA7EF /* MoveCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCircle.swift; sourceTree = "<group>"; };
+		28D058DC267F26CA005AA7EF /* TestShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestShapes.swift; sourceTree = "<group>"; };
+		28D058DE267F4B5E005AA7EF /* TestGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeometry.swift; sourceTree = "<group>"; };
+		28D058E0267F4DB7005AA7EF /* TestGeo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGeo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,8 @@
 				28D058D4267E00C1005AA7EF /* GradientRectangle.swift */,
 				28D058D6267E00CA005AA7EF /* PathView.swift */,
 				28D058D8267E00DB005AA7EF /* CurvesView.swift */,
+				28D058DA267F1A0D005AA7EF /* MoveCircle.swift */,
+				28D058E2267F54E4005AA7EF /* Tests */,
 				28D058C7267DD73E005AA7EF /* Assets.xcassets */,
 				28D058CC267DD73E005AA7EF /* Info.plist */,
 				28D058C9267DD73E005AA7EF /* Preview Content */,
@@ -79,6 +89,16 @@
 				28D058CA267DD73E005AA7EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28D058E2267F54E4005AA7EF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				28D058DC267F26CA005AA7EF /* TestShapes.swift */,
+				28D058DE267F4B5E005AA7EF /* TestGeometry.swift */,
+				28D058E0267F4DB7005AA7EF /* TestGeo.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +176,10 @@
 				28D058D5267E00C1005AA7EF /* GradientRectangle.swift in Sources */,
 				28D058C4267DD73E005AA7EF /* GeometryAnimationAppApp.swift in Sources */,
 				28D058D3267E00B3005AA7EF /* AwardsView.swift in Sources */,
+				28D058DB267F1A0D005AA7EF /* MoveCircle.swift in Sources */,
+				28D058DD267F26CA005AA7EF /* TestShapes.swift in Sources */,
+				28D058DF267F4B5E005AA7EF /* TestGeometry.swift in Sources */,
+				28D058E1267F4DB7005AA7EF /* TestGeo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
