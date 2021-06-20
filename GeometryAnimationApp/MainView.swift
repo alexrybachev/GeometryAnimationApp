@@ -12,21 +12,46 @@ struct MainView: View {
     
     var body: some View {
         VStack {
-            Button(action: { showAward.toggle() }) {
+            Button(action: buttonAction) {
                 HStack {
-                    if showAward {
-                        Text("Hide Award")
-                        Image(systemName: "chevron.up.square")
-                    } else {
-                        Text("Show Award")
-                        Image(systemName: "chevron.down.square")
-                    }
+                    Text( showAward ? "Hide Award" : "Show Award")
+                    Spacer()
+                    Image(systemName: "chevron.up.square")
+                        .scaleEffect(showAward ? 2 : 1)
+                        .rotationEffect(.degrees(showAward ? 0 : 180))
+//                        .animation(.default)
                 }
+            }
+            Spacer()
+            if showAward {
+                GradientRectangle(width: 250, height: 250)
+//                    .offset(x: showAward ? 0 : -UIScreen.main.bounds.width)
+//                    .animation(Animation.spring().repeatCount(2, autoreverses: false))
+                    .animation(.default)
+                    .transition(.transition)
             }
             Spacer()
         }
         .font(.headline)
         .padding()
+    }
+    
+    private func buttonAction() {
+        withAnimation {
+            showAward.toggle()
+        }
+    }
+}
+
+extension AnyTransition {
+    static var transition: AnyTransition {
+        let insertion = AnyTransition.move(edge: .leading)
+            .combined(with: .scale)
+        
+        let removal = AnyTransition.scale
+            .combined(with: .opacity)
+        
+        return .asymmetric(insertion: insertion, removal: removal)
     }
 }
 
